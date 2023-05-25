@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1 id = "title">Page</h1>
-    <p id = "description"></p>
-    <form id="survey-form"></form>
-    <input id ="name" type = "text" name = "Abdul">
-    
+  </head>
+  <body>
+    <h1 id="title">Page title</h1>
+    <p id="description"></p>
+    <form id="survay-form">
+      <label for="name">name</label>
+      <input type="text" id="name" name="Abdu" placeholder="input your name"><br></form>
+      <label for="email">email</label>
+      <input type="email" id="email" required placeholder="input you'r email" ><br></br>
+      <label for="number">number</label>
+      <input
+        type="number"
+        id="number"
+        min="18"
+        max="100"
+        required
+        placeholder="input a number between 18-100"
+      ><br></br>
 
-</body>
+      <button type="submit" id="submit">submit</button>
+    </form>
+  </body>
 </html>
